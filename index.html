@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Converter - Exercise 16</title>
+    <link rel="stylesheet" href="css/main.min.css">
+    <style>
+        body {
+            background-image: url(Centimetres-rulers-clipping-path-background.webp);
+        }        
+        .top {
+            padding: 100px 40px;
+        }
+        div.col-md-6 {
+            padding: 5%;
+        }
+        button {
+            background-color: rgb(61, 61, 61);
+            color: white;
+        }
+        p {
+            margin-bottom: 0;
+        }
+        .bottom {
+            padding: 0 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container top">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 bg-primary">
+                <h1 class="text-center">Length Converter</h1>
+                <p>Type the value in Meter</p>
+                <form>
+                    <div class="form-group">
+                        <input id="meterInput" type="number" class="form-control form-control-lg" placeholder="Meter">
+                    </div>
+                </form>
+                <br><br>
+                <div class="container bottom">
+                    <button onclick="mmConvertion()">Convert to</button>
+                    <input id="mmOutput" type="text"> Millimeter
+                    <br><br>
+                    <button onclick="inConvertion()">Convert to</button>
+                    <input id="inOutput" type="text"> Inches 
+                    <br><br>
+                    <button onclick="cmConvertion()">Convert to</button>
+                    <input id="cmOutput" type="text"> Centimeter
+                    <br><br>
+                    <button onclick="dmConvertion()">Convert to</button>
+                    <input id="dmOutput" type="text"> Decimeter
+                    <br><br>
+                    <button onclick="kmConvertion()">Convert to</button>
+                    <input id="kmOutput" type="text"> Kilometer
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

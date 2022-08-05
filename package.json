@@ -1,0 +1,14 @@
+{
+  "name": "wd11_exercise16_mejos",
+  "version": "1.0.0",
+  "description": "This is for EXERCISE16",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jopet Mejos",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
